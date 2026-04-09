@@ -30,7 +30,7 @@ a structured analysis in under 30 seconds, including:
 
 ## Live Demo
 
-🔗 [Launch App}#
+🔗 [Launch App} {🔗 [Launch App](https://aipolicyanalyzer-53oflnrydwap5do4vf8zgt.streamlit.app/)}
 
 ## Technical Stack
 
