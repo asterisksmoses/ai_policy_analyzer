@@ -30,7 +30,7 @@ a structured analysis in under 30 seconds, including:
 
 ## Live Demo
 
-🔗 [Launch App](#) ← replace this with your Streamlit Cloud URL after deployment
+🔗 [Launch App}#
 
 ## Technical Stack
 
