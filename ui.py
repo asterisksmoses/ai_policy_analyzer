@@ -193,7 +193,7 @@ def apply_styles():
 
 def render_header():
     st.markdown("""
-        <div class="version-tag">v1.0 · Powered by LLaMA 3.3-70b</div>
+        <div class="version-tag">v1.1 · Powered by OpenAI GPT-OSS-120B</div>
         <div class="analyzer-badge">Policy Intelligence Tool</div>
         <div class="analyzer-title">Gender & Development<br><span>Policy Analyzer</span></div>
         <div class="analyzer-subtitle">
