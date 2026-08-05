@@ -35,6 +35,7 @@ render_header()
 api_key = os.getenv("GROQ_API_KEY")
 check_api_key(api_key)
 client = Groq(api_key=api_key)
+MODEL_NAME = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 # --- Sidebar ---
 framework, output_use = render_sidebar()
@@ -98,7 +99,7 @@ Report text:
 
             try:
                 response = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                    model=MODEL_NAME,
                     messages=[
                         {"role": "system", "content": "You are a senior policy analyst specializing in gender equality, human rights, and development governance in Sub-Saharan Africa. Your outputs are used to inform government submissions and programme design. Be precise, structured, and avoid generic language."},
                         {"role": "user", "content": prompt}
