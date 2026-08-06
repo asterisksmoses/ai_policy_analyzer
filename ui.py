@@ -297,13 +297,12 @@ def render_results(analysis, uploaded_file):
 
 def _render_section_card(header, body):
     num, name = header
-    body_html = body.replace("\n", "<br>")
     st.markdown(f"""
         <div class="result-section">
             <div class="result-section-header">
                 <div class="section-num">{num}</div>
                 <div class="section-name">{name}</div>
             </div>
-            <div class="result-section-body">{body_html}</div>
         </div>
     """, unsafe_allow_html=True)
+    st.markdown(body)

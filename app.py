@@ -71,6 +71,12 @@ A policy officer needs a structured analysis of the following report to inform a
 
 {framework_instruction}
 
+CRITICAL CONSTRAINT: Base your entire analysis strictly on the report text provided below.
+Do NOT invent, estimate, or supply specific legislation names, article numbers, budget figures,
+grant codes, institutional mandates, or dates that do not explicitly appear in the source text.
+If the report does not specify a figure, citation, or named provision, say so explicitly
+(e.g., "the report does not specify a budget allocation") rather than supplying one.
+
 Provide your analysis in exactly these sections:
 
 **1. EXECUTIVE SUMMARY**
@@ -80,15 +86,19 @@ Provide your analysis in exactly these sections:
 List the 4-6 dominant thematic areas with a one-sentence explanation of each.
 
 **3. POLICY RECOMMENDATIONS**
-Extract or infer concrete, actionable recommendations. Present as numbered points.
-Be specific — name specific legislation, institutions, or budget lines where possible.
-Avoid vague language like "continue to implement" or "strengthen capacity" without specifying how.
+Extract or infer concrete, actionable recommendations *based only on what the report states or clearly implies*.
+Present as numbered points. Where the report names specific legislation, institutions, or budget lines, cite them exactly.
+Where it does not, keep the recommendation general rather than inventing specifics.
+Avoid vague language like "continue to implement" or "strengthen capacity" without specifying how — 
+but do not fabricate names, numbers, or citations to appear specific.
 
 **4. IMPLEMENTATION GAPS & RISKS**
 Identify what the report flags as barriers, risks, or missing elements. Flag anything that would undermine implementation.
 
 **5. FRAMEWORK ALIGNMENT**
-Explicitly cite specific articles or provisions of relevant frameworks that align with or are contradicted by the report's findings.
+Cite specific articles or provisions of relevant frameworks *only if you are confident they are accurate*.
+If uncertain of the exact article number, refer to the framework and provision by name/topic without 
+inventing a specific article number.
 
 **6. SUGGESTED NEXT STEPS**
 Based on the analysis, suggest 2-3 concrete actions the policy officer should consider taking.
