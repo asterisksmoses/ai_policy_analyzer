@@ -77,6 +77,9 @@ grant codes, institutional mandates, or dates that do not explicitly appear in t
 If the report does not specify a figure, citation, or named provision, say so explicitly
 (e.g., "the report does not specify a budget allocation") rather than supplying one.
 
+CRITICAL FORMATTING CONSTRAINT: When using bold markdown, always write **text** with 
+no space between the asterisks and the text. Never write ** text** or **text **.
+
 Provide your analysis in exactly these sections:
 
 **1. EXECUTIVE SUMMARY**
